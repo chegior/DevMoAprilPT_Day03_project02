@@ -1,0 +1,96 @@
+body{
+  background: rgb(221, 221, 221);
+}
+p{
+  text-align: justify;
+}
+
+a{
+  color: white;
+  display: block;
+  text-decoration: none;
+
+}
+
+.wrapper{
+  background: rgb(216, 216, 216);
+  border: 1px solid black;
+  padding: 0;
+  margin: 10px 200px;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid blue;*/
+
+}
+
+.main_content{
+  display: flex;
+  flex-direction: column;
+}
+
+.format_window{
+  padding: 10px 40px;
+  margin: 10px 40px;
+  background: rgb(255, 255, 255);
+  /*border: 2px solid black;*/
+
+
+}
+
+.menu_section{
+  display: flex;
+  flex-direction: column;
+
+}
+.format_buttom{
+  padding-top: 15px;
+  color: white;
+  height:35px;
+  width: 90px;
+  margin-right: 10px;
+  font-family: arial;
+  text-align: center;
+
+}
+.buttoms{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+}
+.buttom_red{
+  background:rgb(206, 11, 36);
+
+}
+.buttom_blue{
+  background: rgb(78, 146, 223);
+}
+.image_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image{
+  padding-top: 125px;
+  font-family: arial;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+  background:rgb(74, 74, 74);
+  width: 100%;
+  height: 200px;
+}
+.foot{
+  display:flex;
+  justify-content: flex-end;
+  background: rgb(0, 0, 0);
+  color:white;
+  font-family: arial;
+  margin:0;
+  width: 100%;
+}
+.link{
+  width: 60px;
+  padding: 10px;
+}
